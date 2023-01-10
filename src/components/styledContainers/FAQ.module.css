@@ -1,0 +1,52 @@
+
+
+.pageheader{
+    display: block;
+position: relative;
+width: 100%;
+height: auto;
+z-index: -3;
+background-color: #fcf2e9;
+
+}
+
+.pageheader img{
+max-width: 30%;
+padding-top: 0;
+min-width: 300px;
+height: fit-content;
+}
+
+
+h1{
+    z-index: 100;
+padding-top: 3%;
+color: #6c5a49;
+color: #155b95;
+}
+
+.selectorRow{
+    
+width: 100%;
+display: flex;
+flex-direction: row;
+align-items: center;
+align-content: center;
+justify-content: center;
+border-bottom:  2px solid lightgray;
+}
+
+.selectorButton{
+    padding-bottom: 1px;
+    display: block;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: auto;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+   line-height: 1rem;
+   border-bottom: 2px solid #155b95 ;
+white-space: nowrap;
+font-weight: 400;
+
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+
+.HomeAmenitiesContainer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-color: #d2d6ef
+
+}
+
+
+.amenitiesLogoGrid{
+display: grid;
+margin-top: 180px;
+grid-template-columns:150px 150px 150px;
+  grid-template-rows: 150px 150px 150px;
+
+
+align-content: center;
+
+justify-items: center;
+
+}
+
+
+.amenitiesImage img{
+width: 120px;
+
+}
+
+
+.amenitiesCard{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 8%;
+background-color: white;
+border-radius: 15px;
+height: 500px;
+width: 95%;
+
+}
+
+.amenitiesText{
+padding: 60px 50px 15px 100px;
+
+
+}
+
+.amenitiesText h2{
+     font-size: 12vh;
+    font-family: 'Roboto', sans-serif;
+    color: #155b95;
+    line-height: 1vh;
+    text-align: left;
+}
+
+.amenitiesTextdetail{
+    font-size: 4vh;
+   font-family: 'Roboto', sans-serif;
+   color: gray;
+   line-height: 1vh;
+   text-align: left;
+}
+
+

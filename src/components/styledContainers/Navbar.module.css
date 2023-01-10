@@ -1,0 +1,36 @@
+
+.mainMenu{
+display: flex;
+flex-direction:row;
+justify-content: flex-end;
+margin-right: 10%;
+width: 60%;
+
+}
+.mainMenu p{
+padding: 0px 10px 0px 10px;
+font-weight: 600;
+color: rgb(46, 46, 46);
+text-decoration: none;
+}
+
+.menuContainer{
+display: flex;
+flex-direction: row;
+padding-top: 3%;
+background-color: white;
+z-index: 100;
+}
+
+.headerLogo{
+width: 30%;
+align-self: center;
+
+}
+
+.headerLogo img{
+width: 150px;
+
+
+}
+
