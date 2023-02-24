@@ -1,0 +1,67 @@
+{
+
+"Reservas": [
+{
+    "id": 1,
+"pregunta": "como  hacer una reserva?",
+"respuesta": "Aunque las protestas posteriores a la destitución de Pedro Castillo -tras su intento de disolver el Congreso el pasado diciembre- han amainado en gran parte del país, las regiones sureñas de Arequipa, Apurímac, Ayacucho, Cuzco y Puno son el escenario constante de bloqueos de carreteras, marchas y enfrentamientos. "
+
+},
+{
+    "id": 2,
+"pregunta": "como  cancelar una reserva?",
+"respuesta": "Aunque las protestas posteriores a la destitución de Pedro Castillo -tras su intento de disolver el Congreso el pasado diciembre- han amainado en gran parte del país, las regiones sureñas de Arequipa, Apurímac, Ayacucho, Cuzco y Puno son el escenario constante de bloqueos de carreteras, marchas y enfrentamientos. "
+
+},
+{
+    "id": 3,
+"pregunta": "Es necesario el registro?",
+"respuesta": "Aunque las protestas posteriores a la destitución de Pedro Castillo -tras su intento de disolver el Congreso el pasado diciembre- han amainado en gran parte del país, las regiones sureñas de Arequipa, Apurímac, Ayacucho, Cuzco y Puno son el escenario constante de bloqueos de carreteras, marchas y enfrentamientos. "
+
+}
+
+
+],
+
+"Hospedaje":[
+    {
+        "id": 5,
+    "pregunta": "Donde puedo parquear?",
+    "respuesta": "Aunque las protestas posteriores a la destitución de Pedro Castillo -tras su intento de disolver el Congreso el pasado diciembre- han amainado en gran parte del país, las regiones sureñas de Arequipa, Apurímac, Ayacucho, Cuzco y Puno son el escenario constante de bloqueos de carreteras, marchas y enfrentamientos. "
+    
+    },
+    {
+        "id": 6,
+    "pregunta": "Donde esta ubicado?",
+    "respuesta": "Aunque las protestas posteriores a la destitución de Pedro Castillo -tras su intento de disolver el Congreso el pasado diciembre- han amainado en gran parte del país, las regiones sureñas de Arequipa, Apurímac, Ayacucho, Cuzco y Puno son el escenario constante de bloqueos de carreteras, marchas y enfrentamientos. "
+    
+    },
+    {
+        "id": 7,
+    "pregunta": "como es el acceso autonomo?",
+    "respuesta": "Aunque las protestas posteriores a la destitución de Pedro Castillo -tras su intento de disolver el Congreso el pasado diciembre- han amainado en gran parte del país, las regiones sureñas de Arequipa, Apurímac, Ayacucho, Cuzco y Puno son el escenario constante de bloqueos de carreteras, marchas y enfrentamientos. "
+    
+    },
+    {
+        "id": 8,
+    "pregunta": "como es la zona aledaña?",
+    "respuesta": "Aunque las protestas posteriores a la destitución de Pedro Castillo -tras su intento de disolver el Congreso el pasado diciembre- han amainado en gran parte del país, las regiones sureñas de Arequipa, Apurímac, Ayacucho, Cuzco y Puno son el escenario constante de bloqueos de carreteras, marchas y enfrentamientos. "
+    
+    }
+
+
+
+
+]
+
+
+
+
+
+
+
+
+
+
+
+}

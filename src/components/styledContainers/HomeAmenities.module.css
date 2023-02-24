@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 
-
+@media (min-width: 982px) {
 .HomeAmenitiesContainer{
 display: flex;
 flex-direction: row;
 justify-content: center;
-background-color: #d2d6ef
+background-color: 
 
 }
 
@@ -36,33 +36,254 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 margin-top: 8%;
-background-color: white;
 border-radius: 15px;
-height: 500px;
-width: 95%;
+height: auto;
+width: 1000px;
 
 }
 
 .amenitiesText{
-padding: 60px 50px 15px 100px;
-
+  padding: 60px 50px 15px 60px;
+    justify-content: center;
+    width: fit-content;
+    margin-top: 2rem;
 
 }
 
 .amenitiesText h2{
-     font-size: 12vh;
-    font-family: 'Roboto', sans-serif;
-    color: #155b95;
-    line-height: 1vh;
-    text-align: left;
+  font-size: 12vh;
+  font-family: 'Roboto', sans-serif;
+  color: #155b95;
+  line-height: 11vh;
+  text-align: left;
 }
-
+}
 .amenitiesTextdetail{
     font-size: 4vh;
    font-family: 'Roboto', sans-serif;
    color: gray;
-   line-height: 1vh;
+   line-height: 4vh;
    text-align: left;
 }
 
+@media (max-width: 840px) {
 
+
+  .HomeAmenitiesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%; 
+    }
+    
+    
+    .amenitiesLogoGrid{
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns:150px 150px 150px;
+      grid-template-rows: 150px 150px;
+    
+    align-content: center;
+    justify-items: center;
+    max-height: 600px;
+    }
+    
+    
+    .amenitiesImage img{
+    width: 120px;
+  
+    }
+    
+    
+    .amenitiesCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+     justify-items: center;
+     align-items: center;
+    margin-top: 8%;
+    border-radius: 15px;
+    width: 95%;
+    height: fit-content;
+    
+    }
+    
+    .amenitiesText{
+  
+    padding: 60px 50px 15px 100px;
+    justify-content: center;
+    width: auto;
+    height: auto
+    }
+    
+    .amenitiesText h2{
+         font-size: 8vh;
+        font-family: 'Roboto', sans-serif;
+        color: #155b95;
+         line-height: 8vh; 
+        text-align: left;
+        
+    }
+    
+    .amenitiesTextdetail{
+        font-size: 4vh;
+       font-family: 'Roboto', sans-serif;
+       
+       line-height: 5vh;
+       text-align: left;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 840px) and (max-width: 982px) 
+{
+
+
+  .HomeAmenitiesContainer{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+    }
+    
+    
+    .amenitiesLogoGrid{
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns:150px 150px 150px;
+      grid-template-rows: 150px 150px;
+    
+    align-content: center;
+    justify-items: center;
+    max-height: 600px;
+    }
+    
+    
+    .amenitiesImage img{
+    width: 120px;
+    
+    }
+    
+    
+    .amenitiesCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+     justify-items: center;
+     align-items: center;
+    margin-top: 8%;
+    background-color: white;
+    border-radius: 15px;
+    
+    width: 95%;
+    height: auto;
+    padding: 0px 30px 50px 30px;
+    
+    }
+    
+    .amenitiesText{
+  
+    padding: 60px 0px 15px 40px;
+    justify-content: center;
+    width: 100%;
+    
+    }
+    
+    .amenitiesText h2{
+         font-size: 10vh;
+        font-family: 'Roboto', sans-serif;
+        color: #155b95;
+        line-height: 9vh;
+        text-align: left;
+    }
+    
+    .amenitiesTextdetail{
+        font-size: 3vh;
+       font-family: 'Roboto', sans-serif;
+       color: gray;
+       line-height: 3vh;
+       text-align: left;
+       width: 100%;
+    }
+
+
+} 
+/* @media only screen and (min-width: 840px) and (max-width: 1000px){
+  .amenitiesText h2{
+    font-size: 10vh;
+   font-family: 'Roboto', sans-serif;
+   color: #155b95;
+   line-height: 12vh;
+   text-align: left;
+  }
+  .amenitiesText{
+  
+    padding: 100px 0px 60px 60px;
+    justify-content: center;
+    width: 100%;
+    
+    }
+    .amenitiesTextdetail{
+      font-size: 3vh;
+     font-family: 'Roboto', sans-serif;
+     color: gray;
+     line-height: 1vh;
+     text-align: left;
+     width: 100%;
+  }
+ 
+}  */
+
+
+@media only screen and (min-width: 350px) and (max-width: 580px) {
+
+  .amenitiesCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 8%;
+    border-radius: 15px;
+    height: auto;
+    width: 100%;
+    min-width: 300px;
+    
+    }
+
+  .amenitiesImage img{
+    width: 100px;
+    margin: 10px;
+    
+    }
+
+    .HomeAmenitiesContainer{
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+      width: 100%; 
+      }
+
+      
+.amenitiesLogoGrid{
+  display: grid;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  grid-template-columns:auto auto auto;
+    grid-template-rows: auto auto auto;
+  
+  
+  align-content: center;
+  
+  justify-items: center;
+  
+  }
+  
+      
+
+}

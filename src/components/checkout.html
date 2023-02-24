@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <form id="frm_ePaycoCheckoutOpen" 
+    name="frm_ePaycoCheckoutOpen" 
+    method="POST" 
+    action="https://secure.payco.co/checkoutopen.php">
+  
+    <input name="p_cust_id_cliente" type="hidden" value="49820"/>
+    <input name="p_key" type="hidden" value="50c808e69a4bacc83d5e08fe29fd5bb7f8f97fcc"/>
+    <input name="p_id_factura" type="hidden" value=""/>
+    <input name="p_description" type="hidden" value="Hospedaje Mihaus"/>
+    <input name="p_detalle" type="hidden" value=""/>
+    <input name="p_referencia" type="hidden" value=""/>
+    <input name="p_test_request" type="hidden" value="false"/>
+    <input name="p_url_respuesta" type="hidden" value=""/>
+    <input name="p_url_confirmacion" type="hidden" value=""/>
+    <input type="image" id="imagen" src="https://multimedia.epayco.co/dashboard/btns/btn5.png" alt=""/>
+    <input type="hidden" id="idboton" name="idboton" value="50720"/>
+                      
+</form>
+<form>
+    <script src='https://checkout.epayco.co/checkout.js'
+        data-epayco-key='9695a2acafb85a9ae592448e63c46477' 
+        class='epayco-button' 
+        data-epayco-amount='5000.04' 
+        data-epayco-tax='0.00'  
+        data-epayco-tax-ico='0.00'               
+        data-epayco-tax-base='5000.04'
+        data-epayco-name='Estadia Minhaus' 
+        data-epayco-description='Estadia Minhaus' 
+        data-epayco-currency='cop'    
+        data-epayco-country='CO' 
+        data-epayco-test='false' 
+        data-epayco-external='false' 
+        data-epayco-response=''  
+        data-epayco-confirmation='' 
+        data-epayco-button='https://multimedia.epayco.co/dashboard/btns/btn5.png'> 
+    </script> 
+</form>
+<link rel="stylesheet" href="https://app.lobbypms.com/public/css/widget/lobby-date-rage-selector.min.css?v=9IPvWVxdxMUfgHBogy2BSn1PM">
+   <script src="https://app.lobbypms.com/public/js/widget/lobby-date-rage-selector.min.js?v=9WejVH6dp3VIWWysZNDZO6joN"></script>
+   <script>
+    var ldrs = new LobbyDateRangeSelector({
+      apiBaseUrl: 'https://api.lobbypms.com/api/ldrs/',
+      token: 'g4e5JpH3fRZPAudeafqmGS8K2SnPzh0BZsHVLIdq0C2bFVFNmbUKcVjiXxq5',
+      lang: 'es',
+    });
+   </script>
+</body>
+</html>

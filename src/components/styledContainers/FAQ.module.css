@@ -6,7 +6,8 @@ position: relative;
 width: 100%;
 height: auto;
 z-index: -3;
-background-color: #fcf2e9;
+background-color: #d1cecb;
+background-color: #155b95;;
 
 }
 
@@ -23,6 +24,7 @@ h1{
 padding-top: 3%;
 color: #6c5a49;
 color: #155b95;
+color: white
 }
 
 .selectorRow{
@@ -38,15 +40,28 @@ border-bottom:  2px solid lightgray;
 
 .selectorButton{
     padding-bottom: 1px;
-    display: block;
+    display:flex;
     padding-left: 5%;
     padding-right: 5%;
     width: auto;
     margin-left: 0.5%;
     margin-right: 0.5%;
+    margin-top: 1%;
+   
    line-height: 1rem;
    border-bottom: 2px solid #155b95 ;
 white-space: nowrap;
 font-weight: 400;
+width: 200px;
+justify-content: center;
 
+}
+
+.selectorButton a{
+   padding-bottom: 6%;
+    text-decoration: none;
+  color: black;
+  font-size: large;
+  font-weight: 400;
+   
 }

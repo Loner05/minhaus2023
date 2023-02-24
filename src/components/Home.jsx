@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "./Footer";
+
 import HomeAmenities from "./HomeAmenities";
 import { HomegalleryDock } from "./HomegalleryDock";
 import NavBar from "./Navbar";
@@ -13,8 +15,9 @@ return(
 <ReservationEngine/>
 <HomeAmenities/>
 <HomegalleryDock/>
-
-
+<div style={{background:"black"}}>
+<Footer/>
+</div>
 </div>
 )}
 

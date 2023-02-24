@@ -1,0 +1,184 @@
+
+
+.galleryGrid{
+    display: grid;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 600px 1fr 200px  400px 500px 400px 500px;
+  grid-template-areas: 
+  "mainImg mainImg mainImg"
+  "oneImg  twoImg   threeImg"
+  "oneImg  twoImg   fourImg"
+  "fiveImg fiveImg   fourImg"
+  "sixImg sevenImg  eightImg"
+ "tenImg nineImg nineImg"
+ "elevenImg elevenImg twelveImg";
+
+
+}
+
+.mainImg{
+grid-area: mainImg;
+
+
+}
+
+.oneImg{
+    background-color: aqua;
+    grid-area: oneImg;
+    
+    
+    
+    
+}
+
+
+ .imgl{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10px;
+    
+    
+}
+
+.twoImg{
+    grid-area: twoImg;
+    background-color: red;
+
+
+}
+
+
+
+.threeImg{
+    grid-area:threeImg;
+    background-color: rgba(156, 197, 9, 0.796);
+    height: 100%;
+}
+
+.fourImg{
+    grid-area:fourImg ;
+    background-color: rgb(155, 37, 155);
+
+} 
+
+.sixImg{
+  grid-area:sixImg ;
+  background-color: rgb(165, 145, 165);
+
+}
+.sevenImg{
+  grid-area:sevenImg ;
+  background-color: rgb(180, 85, 26);
+}
+
+.eightImg{
+  grid-area: eightImg ;
+  background-color: rgb(226, 47, 142);
+}
+
+.nineImg{
+    grid-area: nineImg;
+}
+
+.tenImg{
+    grid-area: tenImg;
+}
+.elevenImg{
+    grid-area: elevenImg;
+}
+.twelve{
+    grid-area: twelveImg;
+}
+
+img{
+    /* width: 100%; */
+    
+    object-fit: cover;
+    
+}
+
+.fiveImg{
+grid-area: fiveImg;
+background-color: #8cffa0;
+
+
+}
+
+.headerTextContainer{
+display: flex;
+justify-content: center;
+align-content: center;
+width: 100%;
+
+}
+
+.headerText{
+    display: flex;
+width: 800px;
+flex-direction: column;
+justify-content: center;
+align-self: center;
+justify-self: center;
+margin-top: 5%;
+margin-bottom: 4%;
+font-size: large;
+
+color: rgb(52, 49, 49);
+font-weight: 500;
+
+}
+
+.headerText p{
+ margin-top: 10px;   
+}
+
+
+@media  (max-width: 580px)  {
+    .galleryGrid{
+        display: grid;
+      grid-gap: 10px;
+      padding: 10px;
+      grid-template-columns: auto auto auto;
+      grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-areas: 
+  "mainImg mainImg mainImg"
+  "oneImg  twoImg   threeImg"
+  "oneImg  twoImg   fourImg"
+  "fiveImg fiveImg   fourImg"
+  "sixImg sevenImg  eightImg"
+ "tenImg nineImg nineImg"
+ "elevenImg elevenImg twelveImg";
+    
+    
+    }
+    .headerTextContainer{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        
+        }
+        
+        .headerText{
+            display: flex;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        justify-self: center;
+        margin-top: 5%;
+        margin-bottom: 4%;
+        font-size: large;
+        
+        color: rgb(52, 49, 49);
+        font-weight: 500;
+        
+        }
+        
+        .headerText p{
+         margin-top: 10px;   
+        }
+
+}

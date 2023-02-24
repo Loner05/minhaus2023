@@ -1,17 +1,21 @@
 
+@media  (min-width: 840px){
+
 .mainMenu{
 display: flex;
 flex-direction:row;
-justify-content: flex-end;
-margin-right: 10%;
-width: 60%;
+align-items: end;
+top: 20px;
+
 
 }
 .mainMenu p{
-padding: 0px 10px 0px 10px;
+padding: 0px 10px 0px 40px;
 font-weight: 600;
 color: rgb(46, 46, 46);
 text-decoration: none;
+margin-left: 10px;
+margin-right: 10px;
 }
 
 .menuContainer{
@@ -20,6 +24,8 @@ flex-direction: row;
 padding-top: 3%;
 background-color: white;
 z-index: 100;
+justify-items: center;
+
 }
 
 .headerLogo{
@@ -31,6 +37,132 @@ align-self: center;
 .headerLogo img{
 width: 150px;
 
+}
+header label{
+display: none;
+    
+}
+header input{
+    display: none;
+    
+    }
+
+    .navOptions{
+      display: flex;
+      width: 100%;
+      justify-items: right;
+      justify-content: right;
+      align-items: end;
+      margin-right: 8%;
+
+      }
 
 }
 
+.menuItem{
+text-decoration: none;
+
+
+
+
+}
+@media  (max-width: 840px){
+    .mainMenu{
+        
+        position: absolute;
+         display: flex; 
+        flex-direction: column;
+        /* justify-content: flex-end; */
+        width: 100%;
+        min-width: 450px;
+        background-color: white;
+        display: none;
+         margin-top: 50px;
+         padding-top: 40px;
+         padding-bottom: 30px;
+         margin-left: -94%; 
+         
+         z-index: 3;
+        }
+        .mainMenu p{
+        width: 100%;
+        padding: 0px 10px 0px 10px;
+        font-weight: 600;
+        color: rgb(46, 46, 46);
+        text-decoration: none;
+        }
+        
+        .menuContainer{
+         display: flex;
+        flex-direction: row; 
+        padding-top: 3%;
+        background-color: white;
+        
+        
+
+        }
+        
+        .headerLogo{
+        width: 100%;
+        align-self: center;
+        
+        }
+        
+        .headerLogo img{
+        width: 150px;
+        
+        
+        }
+        header{
+            display: flex;
+            justify-items: center;
+            width: 50px;
+            height: 50px;
+            
+            
+            }
+            .btnMenu input{
+              display: none;
+          
+       
+            
+            }
+            #btnMenu {
+            display: none;
+            justify-self: right;
+            justify-items: right;
+            background-color: brown;
+            
+            }
+            .btnMenuBox{
+              position: absolute;
+              top: 10px;
+              right: 30px;
+              font-size: 40px;
+              
+              display: flex;
+              align-self: flex-end;
+              justify-content: right;
+              padding: 10px 10px 10px 10px;
+              z-index: 1;
+
+            }
+            /* header label{
+              display: block ;
+              width: 30px;
+              height: 30px;
+              padding: 10px; 
+            } */
+            
+            header label:hover{
+            cursor: pointer;
+            background: (0,0,0,0.3);
+            }
+
+           
+} 
+#btnMenu:checked ~.mainMenu{
+  margin-right: 100%; 
+  display: flex;        
+   
+}

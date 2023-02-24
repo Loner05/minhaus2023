@@ -1,0 +1,78 @@
+{
+
+"Reservas": [
+{
+    "id": 1,
+"pregunta": "como  hacer una reserva?",
+"respuesta": "Para hacer una reserva en Minhaus, los clientes pueden utilizar el motor de reservas disponible en la página web oficial de la empresa, minhaus.com.co donde puede consultar la disponibilidad de alojamiento en la fecha y el precio. Una vez que se ha confirmado la disponibilidad, el cliente puede proceder a realizar el pago de la reserva a través de diversas opciones de pago, que incluyen PSE (un sistema de pagos en línea utilizado en Colombia), efectivo en puntos Sured (una red de puntos de pago en efectivo en Colombia), tarjeta de crédito y Paypal. Además, los clientes también pueden realizar reservas a través de las plataformas de reserva en línea Booking y Airbnb."
+
+},
+{
+    "id": 2,
+"pregunta": "como  cancelar una reserva?",
+"respuesta": "Es importante tener en cuenta que para cancelar una reserva, lo mejor es comunicarse directamente con la plataforma en la que se realizó la reserva. Cada plataforma tiene su propia política de cancelación y es importante conocerla para entender cuáles son las opciones de reembolso o cambios que se pueden hacer. Si la reserva se realizó directamente con el hospedaje, se puede poner en contacto con nostros a través del número de WhatsApp +57 3057197651 para gestionar la cancelación. Es importante tener en cuenta que, en este caso, se aplicará la política de cancelación del hospedaje. Si se cancela la reserva con un plazo de al menos 5 días antes de la fecha de llegada, se realizará un reembolso completo. Si se cancela con un plazo inferior a los 5 días, se aplicará una penalización del 50% del costo total de la reserva."
+
+},
+{
+    "id": 3,
+"pregunta": "Es necesario el registro?",
+"respuesta": "Es necesario que los huéspedes en Colombia llenen la tarjeta de registro hotelera por varias razones importantes. En primer lugar, esta tarjeta es un requisito legal obligatorio en Colombia y su incumplimiento puede resultar en multas y sanciones para el hotel. En segundo lugar, la tarjeta de registro hotelera proporciona información valiosa sobre los huéspedes, como su identificación, fecha de llegada y salida, número de habitación y otros detalles importantes. Esta información es necesaria para el control y la gestión de las estadísticas hoteleras y también es una medida de seguridad importante para los huéspedes, ya que ayuda a garantizar su seguridad y protección mientras se encuentran en el hotel. Además, la tarjeta de registro hotelera también puede ser útil en caso de emergencias, ya que proporciona información sobre la ubicación de los huéspedes y cómo contactarlos en caso de necesidad. También es un documento importante para los huéspedes, ya que les permite demostrar que han estado alojados en un hotel en caso de necesidad, como para fines de reembolso de gastos de viaje o para cumplir con los requisitos de visado en algunos países. En resumen, la tarjeta de registro hotelera es necesaria en Colombia para cumplir con los requisitos legales, para garantizar la seguridad de los huéspedes y para facilitar la gestión de la información de los mismos. Por lo tanto, se recomienda encarecidamente a los huéspedes que llenen la tarjeta de registro de manera precisa y completa para garantizar una experiencia de alojamiento segura y agradable."
+
+}
+
+
+],
+
+"Hospedaje":[
+    {
+        "id": 5,
+    "pregunta": "Donde puedo parquear?",
+    "respuesta": "El hospedaje no cuenta con parqueadero privado para los huéspedes. Se  desaconseja estacionar en la calle, recomendamos a los huéspedes que necesiten estacionar su vehículo que utilicen el Parqueadero Atanasio Girardot, que se encuentra cerca del hospedaje en la dirección: Carrera 74 # 49-41, cuenta con una tarifa asequible de 13.000 COP por 12 horas y 26.000 COP por 24 horas. en una opción muy conveniente para los huéspedes que necesiten estacionar un vehículo durante su estancia en el hospedaje."
+    },
+    {
+        "id": 6,
+    "pregunta": "Donde esta ubicado?",
+    "respuesta": "El hospedaje Minhaus se encuentra en una ubicación privilegiada, muy cerca del Boulevard de la 70, una importante zona comercial y gastronómica de la ciudad de Medellín, Colombia. También está ubicado cerca del Estadio, lo que lo hace perfecto para los aficionados al deporte que quieran asistir a eventos deportivos.Además, la zona donde se encuentra el hospedaje cuenta con una gran variedad de restaurantes, supermercados y otros comercios, lo que lo convierte en una zona muy cómoda y conveniente para los huéspedes que deseen explorar y disfrutar de la ciudad. Otra gran ventaja de la ubicación del hospedaje Minhaus es que se encuentra a solo dos estaciones de metro del centro de la ciudad, lo que permite a los huéspedes moverse fácilmente por toda la ciudad y acceder a los principales puntos de interés turístico y cultural."
+    },
+    {
+        "id": 7,
+    "pregunta": "como es el acceso autonomo?",
+    "respuesta": " Para acceder al hospedaje, se utiliza una entrada autónoma que se explica en detalle en el siguiente video: https://youtu.be/unQcnUj297A. El proceso consiste en ingresar una contraseña en la cerradura de la puerta principal para obtener acceso al edificio. Una vez dentro, los huéspedes encontrarán una caja fuerte que les permitirá  obtener la tarjeta de acceso para la habitación. Es importante destacar que la contraseña es solo necesaria para el primer acceso al hospedaje. Posteriormente, los huéspedes podrán utilizar la tarjeta de acceso para ingresar al edificio colocándola sobre la placa negra del citófono para acceder al hospedaje."
+    },
+    {
+        "id": 8,
+    "pregunta": "Como llegar desde el aeropuerto MDE?",
+    "respuesta": "Existen dos opciones para llegar al hospedaje desde el Aeropuerto MDE. La primera es tomar un taxi, lo cual tiene un costo aproximado de 98.000 COP. La segunda opción es tomar el bus aeropuerto por 12.000 COP, bajarse en la estación Exposiciones, y luego tomar el metro por alrededor de 3000 COP hasta San Antonio. Después, cambiar a la línea B, bajarse en la Estación Estadio y caminar unos 5 minutos. También es posible tomar un taxi desde donde lo deja el bus aeropuerto, con un costo aproximado de 10.000 COP"
+    }],
+    "Sector":[
+        {
+            "id": 9,
+        "pregunta": "Donde puedo cambiar divisas?",
+        "respuesta": "En la zona de la calle 70 se pueden encontrar diversas casas de cambio para realizar transacciones de divisas. Una de las opciones más cercanas se encuentra ubicada en el interior del supermercado Éxito, en la intersección de la calle 70 con la calle San Juan. Asimismo, en el hipermercado Jumbo, en la calle 65, se encuentra un local del Banco Unión donde es posible cambiar divisas. En caso de querer comparar las tasas de cambio, es recomendable dirigirse al segundo piso del centro comercial Unicentro, donde se encuentran varias casas de cambio. Allí podrá comparar y, posiblemente, obtener una mejor tasa de cambio."
+        },
+        {
+            "id": 10,
+        "pregunta": "Que lavanderias hay cerca?",
+        "respuesta": "Si necesitas lavar tu ropa durante tu estancia en el hospedaje, la lavandería más cercana es Home Laundry. Se encuentra a solo una cuadra de distancia y su dirección es Cl 44A #70-98. Puedes contactarlos por teléfono al número 3052456860.Además, existen alternativas para recibir el servicio de lavado y planchado directamente en tu hospedaje. Una de ellas es Mr Jeff, cuyo sitio web es https://jeff.com/co/mrjeff/. Por otro lado, puedes optar por la lavandería Pressto, cuyo número de teléfono es 604 4480686 y su sitio web es https://www.pressto.com.co/."
+        },
+        {
+            "id": 11,
+        "pregunta": "Que bares y restaurantes me recomiendan?",
+        "respuesta": "Laureles, en Medellín, es uno de los barrios más vibrantes y diversos de la ciudad. Si estás buscando opciones de restaurantes y bares para explorar,  aquí te presentamos algunas recomendaciones: Burdo: Este restaurante es una excelente opción para los amantes de la comida mexicana. Con su decoración colorida y ambiente relajado, Burdo te hará sentir como si estuvieras en una taquería auténtica. No te pierdas sus tacos al pastor y margaritas de autor. El Correo: Ubicado en una casona antigua de la zona, El Correo es un restaurante con una decoración elegante y acogedora. Su carta ofrece una selección de platos de comida tradicional colombiana, como el ajiaco y la bandeja paisa, además de opciones vegetarianas. ¡No te pierdas su deliciosa limonada de coco! El Sombrero: Si buscas una opción más informal y relajada, El Sombrero es un bar que te encantará. Con su ambiente bohemio y su amplia selección de cervezas artesanales y cócteles, es el lugar perfecto para pasar un buen rato con amigos. Además, su menú de picadas es perfecto para compartir. Café Revolución: Este café es una excelente opción para los amantes del café y la comida vegana. Con su decoración moderna y minimalista, Café Revolución ofrece una selección de cafés de especialidad y opciones de comida vegetariana y vegana, como sus famosos bowls de açaí. Botánico: Este bar con decoración inspirada en la naturaleza ofrece una amplia selección de cócteles creativos y platos de comida internacional, como hamburguesas y pizzas artesanales. Su ambiente relajado y sus mesas al aire libre lo hacen ideal para disfrutar de una noche con amigos. La zona de Laureles en Medellín tiene una gran variedad de restaurantes y bares para todos los gustos. Estas son solo algunas recomendaciones para explorar en la zona de la 70. ¡Atrévete a explorar y descubrir tus nuevos lugares favoritos!"
+        }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -14,11 +14,9 @@ const HomeAmenities = () =>{
     <div className={style.amenitiesCard}>
 <div className={style.amenitiesText}>
 <h2>
-    Mas Cerca 
-</h2>
-<h2>de lo que </h2><h2> Quieres.</h2>
-<div  className={style.amenitiesTextdetail}><p>Ubicacion privilegiada, cercana a</p> <p>La zona 
-    rosa de la 70 estacion de metro</p> y multitud de comercios.
+    Mas Cerca de lo que  Quieres.</h2>
+<div  className={style.amenitiesTextdetail}><p>Ubicacion privilegiada, cercana a la zona 
+    rosa de la 70 estacion de metro y multitud de comercios.</p>
 </div>
 </div>
 <div className={style.amenitiesLogoGrid}>

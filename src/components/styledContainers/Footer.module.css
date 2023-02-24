@@ -1,0 +1,36 @@
+
+
+
+.FooterContainer{
+width: 99%;
+background-color: gray;
+height: 150px;
+color: white;
+margin-top: 0px;
+border-radius: 15px 15px 0px 0px;
+line-height: 4px;
+
+}
+
+.ContentColumn{
+display: flex;
+flex-direction: column;
+justify-items: center;
+align-items: center;
+
+}
+
+.ContentColumn img{
+width: 150px;
+
+}
+
+.mainContainer{
+display: flex;
+width: 100%;
+align-self: flex-end;
+justify-content: center;
+background-color: transparent;
+
+
+}
