@@ -1,4 +1,4 @@
-Bienvenidos a Minhaus
+## Bienvenidos a Minhaus
 
 Este sitio web ha sido diseñado y desarrollado en React, utilizando las últimas tecnologías web para proporcionar una experiencia óptima al usuario.
 
